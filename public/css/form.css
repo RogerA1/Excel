@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36454f;
+    padding: 20px 40px;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #4db8ff;
+}
+
+
+/* Content Wrapper */
+.content-wrapper {
+    flex: 1;
+}
+
+/* Form Wrapper */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.form-wrapper form{
+    background-color: #001f3d;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+/* Form File Input */
+.form-wrapper input[type="file"] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Form Submit Button */
+.form-wrapper button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-wrapper button:hover {
+    background-color: #0056b3;
+}
+
+/* Export Link */
+.export-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #007BFF;
+    padding: 10px;
+    width: 80%;
+    margin-inline: auto;
+    border-radius: 8px;
+}
+
+.export-link:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #001f3d;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.social-links li a:hover {
+    text-decoration: underline;
+}

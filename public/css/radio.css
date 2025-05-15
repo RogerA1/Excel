@@ -1,0 +1,262 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+   background: linear-gradient(to bottom right, #f0f0f0, #bfd3f0);
+
+    color: #333;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    flex: 1;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36454f;
+    padding: 20px 40px;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #4db8ff;
+}
+
+/* Form Container */
+.form-container {
+    width: 600px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+/* Search Form */
+.search {
+    background-color: #001f3d;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.search input {
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search button {
+    padding: 8px 15px;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    font-size: 1.2rem;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+/* Back Button */
+.back-button {
+    padding: 8px 15px;
+    width: 130px;
+    background-color: #6c757d;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+/* Search Bar Flex */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Download Selected Button */
+.button-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#downloadSelectedBtn {
+    display: none;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#downloadSelectedBtn:hover {
+    background-color: #218838;
+}
+
+/* Export Link (inside search page) */
+.export-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #007BFF;
+    padding: 10px;
+    width: 80%;
+    margin-inline: auto;
+    border-radius: 8px;
+}
+
+.export-link:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Table Action Links */
+td a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+td a:hover {
+    background-color: #218838;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.pagination li {
+    flex-shrink: 0;
+}
+
+.footer {
+    background-color: #001f3d;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+      position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.social-links li a:hover {
+    color: #4db8ff;
+}
