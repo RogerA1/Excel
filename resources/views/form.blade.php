@@ -9,6 +9,8 @@
 </head>
 <body>
     <x-frame.header-layout/>
+    <h3 style="text-align: center">admin page test</h3>
+    <h4 style="text-align: center">insert excel file in mysql</h4>
 <div class="content-wrapper">
 <div class="form-wrapper">
     <form action="{{ url('imporadio') }}" method="POST" enctype="multipart/form-data">

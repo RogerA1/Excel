@@ -6,6 +6,7 @@
             <li><a href="{{route('home')}}">Home</a></li>
             <li><a href="{{route('home')}}#about">About</a></li>
             <li><a href="{{route('listen')}}">Listen</a></li>
+            <li><a href="{{route('data')}}">Admin</a></li>
             <li><a href="{{route('home')}}#contact">Contact</a></li>
         </ul>
 </nav>
